@@ -13,6 +13,10 @@ matrix:
       - osx_image: xcode7.3
         env: TARGET=x86_64-apple-ios
 
+      # 32-bit iOS
+      - osx_image: xcode7.3
+        env: TARGET=armv7-apple-ios
+
       # 32-bit OS X 10.9
       - osx_image: xcode6.2
         env:
