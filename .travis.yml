@@ -6,8 +6,7 @@ cache:
 rust: 1.11.0
 os: osx
 env:
-  - TARGET=x86_64-apple-darwin
-  - CARGO_CMD=test
+  - TARGET=x86_64-apple-darwin CARGO_CMD=test
 matrix:
     include:
       # iOS
